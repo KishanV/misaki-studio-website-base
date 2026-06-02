@@ -1,10 +1,6 @@
-const envConfig = require("dotenv").config({
-  path: process.env.NODE_ENV === "app" ? `app.env` : `.env`,
-});
+const envConfig = require("dotenv");
 
 module.exports = {
-  assetPrefix: envConfig.parsed.CDN_URL ? envConfig.parsed.CDN_URL : undefined,
-  basePath: envConfig.parsed.BASE_PATH,
   output: "export",
   trailingSlash: true,
   compress: true,
