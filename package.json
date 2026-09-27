@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "misaki-studio-internal": "0.1.52",
+    "misaki-studio-internal": "0.1.83",
     "autoprefixer": "10.4.2",
     "dotenv": "14.2.0",
     "next": "^15.5.19",
