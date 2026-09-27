@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev -p 8810",
     "start": "next start -p 8810",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seo-files": "node ./scripts/generate-seo-files.mjs",
+    "build": "npm run seo-files && next build"
   },
   "dependencies": {
-    "misaki-studio-internal": "0.1.83",
+    "misaki-studio-internal": "0.1.84",
     "autoprefixer": "10.4.2",
     "dotenv": "14.2.0",
     "next": "^15.5.19",
