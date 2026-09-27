@@ -7,7 +7,12 @@ class MyDocument extends Document {
         <Head>
           <link rel="icon" type="image/x-icon" href="/favicon.svg" />
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-          <title>Design. Animate. to Code.</title>
+          {/*
+            No <title> here. A hardcoded one used to sit in this file, which
+            meant every page of every site built from this starter carried it.
+            Titles come from your project name and page routes via
+            `src/site/seo.tsx` — set SITE_NAME in .env.
+          */}
         </Head>
         <body>
           <Main />
